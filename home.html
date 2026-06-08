@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevLog - Rastreamento de Encomendas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <a href="home.html" class="logo">
+        <img src="images/logo2_devlog-removebg-preview.png" alt="Logo DevLog">
+      </a>
+
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="rastreio.html">Rastrear</a>
+        <a href="suporte.html">Suporte</a>
+        <a href="quem_somos.html">Quem Somos</a>
+        <a href="login.html" class="btn-login">LOGIN</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <h1>Rastreie suas encomendas em segundos</h1>
+        <p>A DevLog conecta você ao status da sua entrega com rastreamento rápido e seguro.</p>
+        <div class="search-bar">
+          <input type="text" placeholder="Digite aqui seu código" />
+          <button>Rastrear</button>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/caminhão devlog home.png" alt="Imagem principal">
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="features-inner">
+      <h2>Por que usar a DevLog?</h2>
+      <div class="cards-grid">
+
+        <div class="card">
+          <svg class="card-icon" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="28" cy="28" r="28" fill="#eef2f8"/>
+            <!-- relógio -->
+            <circle cx="28" cy="28" r="13" stroke="#1e3a5f" stroke-width="2"/>
+            <path d="M28 20 L28 28 L34 28" stroke="#1e3a5f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <!-- raios de velocidade -->
+            <path d="M14 28 L10 28" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+            <path d="M16 20 L13 17" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+            <path d="M16 36 L13 39" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <h3>Rastreamento em tempo real</h3>
+          <p>Veja cada etapa da entrega</p>
+        </div>
+
+        <div class="card">
+          <svg class="card-icon" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="28" cy="28" r="28" fill="#fef2f2"/>
+            <!-- pin -->
+            <path d="M28 42 C28 42 16 32 16 24 C16 17.4 21.4 12 28 12 C34.6 12 40 17.4 40 24 C40 32 28 42 28 42Z" fill="#e53935"/>
+            <circle cx="28" cy="24" r="5" fill="white"/>
+          </svg>
+          <h3>Localização Precisa</h3>
+          <p>Saiba onde está sua encomenda</p>
+        </div>
+
+        <div class="card">
+          <svg class="card-icon" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="28" cy="28" r="28" fill="#eef2f8"/>
+            <!-- sino -->
+            <path d="M28 14 C22 14 18 19 18 25 L18 31 L15 34 L41 34 L38 31 L38 25 C38 19 34 14 28 14Z" fill="#1e3a5f"/>
+            <path d="M25 34 C25 35.7 26.3 37 28 37 C29.7 37 31 35.7 31 34" stroke="#1e3a5f" stroke-width="2" fill="none"/>
+            <!-- bolinha de notificação -->
+            <circle cx="37" cy="19" r="5" fill="#e53935"/>
+            <text x="37" y="22" text-anchor="middle" font-family="sans-serif" font-size="7" fill="white" font-weight="bold">!</text>
+          </svg>
+          <h3>Alertas automáticos</h3>
+          <p>Receba notificações de status</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="about">
+    <div class="about-inner">
+      <div class="about-logo">
+        <!-- logo grande DevLog -->
+        <img src="images/logo_devlog-removebg-preview.png" alt="Imagem Sobre">
+      </div>
+
+      <div class="about-content">
+        <h2>Sobre a DevLog</h2>
+        <p>
+          A DevLog é uma plataforma moderna de <strong>rastreamento</strong> de
+          <strong>encomendas</strong> que conecta clientes e <strong>transportadoras</strong> em um
+          único sistema <strong>rápido</strong> e <strong>confiável</strong>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <img src="images/logo2_devlog-removebg-preview.png" alt="Imagem Logo Final">
+        </div>
+        <p class="footer-tagline">Rastreamento Inteligente de Encomendas</p>
+        <p class="footer-copy">© 2026 DevLog</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="home.html">Home</a>
+        <a href="rastreio.html">Rastrear</a>
+        <a href="suporte.html">Suporte</a>
+        <a href="quem_somos.html">Quem Somos</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
